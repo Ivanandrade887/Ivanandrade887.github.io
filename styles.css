@@ -1,0 +1,85 @@
+/* Estilos para suavidad en la pagina al recorrer por los enlaces */
+html {
+  scroll-behavior: smooth; /* Suaviza el desplazamiento */
+  scroll-padding-top: 80px !important; /* Espaciado superior para evitar que el título quede oculto */
+}
+
+
+/*Estilos para el boton y la barra de busqueda*/
+.custom-search {
+    width: 400px; /* O el ancho que desees */
+}
+.custom-search::placeholder {
+    color: #000000 !important; /* Cambia el color del placeholder a negro y fuerza su aplicación */
+  }
+
+/*Estilos para la barra de navegacion(navbar)*/
+.custom-navbar {
+    background-color: #210D41 !important; /* Fondo del navbar */
+  }
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link,
+  .custom-navbar .form-control,
+  .custom-navbar .btn {
+    color: #ffffff !important; /* Texto, botones y formularios en blanco */
+  }
+  .custom-navbar .btn-outline-success {
+    border-color: #ffffff; /* Borde de botones outline */
+    color: #ffffff; /* Texto del botón outline */
+  }
+  .custom-navbar .btn-secondary {
+    background-color: #ffffff !important; /* Fondo blanco de los botones secundarios */
+    color: #210d41 !important; /* Texto en color de fondo original */
+  }
+  .custom-navbar .btn-secondary:hover {
+    background-color: #dddddd !important; /* Fondo gris claro al pasar el mouse */
+  }
+
+/*Estilos para las imagenes del carrusel*/
+/* Contenedor del carrusel con margen para centrarlo */
+.custom-carrusel-container {
+    max-width: 80% !important; /* Ajusta el ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    position: relative;
+    overflow: hidden; /* Asegura que los elementos no sobresalgan */
+  }
+  
+  /* Propiedades de estilos para el carrusel */
+.tamanho-carrusel {
+  width: 1380px !important;
+  height: 580px;
+  margin-top: 110px;
+  margin-left: 52px;
+}
+.letra-carrusel h5 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.letra-carrusel p {
+  font-size: 40px;
+}
+
+/* Estilos para el apartado de catalogos */
+.catalogoTit h1{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 60px !important;
+  font-weight: bold;
+}
+.card img {
+  object-fit: cover;
+  height: 160px;
+  margin-bottom: -15px !important;
+}
+.card-body h5 {
+  font-size: 20px !important;
+  margin-bottom: -5px !important;
+}
+.card-body p {
+  margin-bottom: -0px;
+}
+.card-body a {
+  margin-bottom: -0px !important;
+}
+
